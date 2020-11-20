@@ -1,7 +1,7 @@
 # Leal Technical Test
 
 ## Usage:
-### in each microservice:
+### In each microservice:
 - Rename .env.example to .env
 - Replace variables with your local variables
 - execute npm install
