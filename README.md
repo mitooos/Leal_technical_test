@@ -18,30 +18,30 @@ body: {
     birthday: '1982-01-07'
   }
 
-- Login:
+- Login:  
 post: '/users/auth/login'  
 body: {
   password: 'pwd',
   email: 'example@email.com',
 }
 
-- Register transaction:
+- Register transaction:  
 post: '/transactions'  
 body: {
   user_id: 'abcdfgh',
   value: 122.33
 }
 
-- Get users transactions:
+- Get users transactions:  
 get: '/transactions/<user_id>
 
 - Get users points:
 get: '/transactions/points/<user_id>
 
-- Inavlidate transaction:
+- Inavlidate transaction:  
 put: '/transactions/<transaction_id>
 
-- Get excel reports:
+- Get excel reports:  
 get: '/transactions/report'
 
 #### Testing:
