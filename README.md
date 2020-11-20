@@ -1,4 +1,4 @@
-# Leal_technical_test
+# Leal Technical Test
 
 ## Usage:
 ### in each microservice:
@@ -19,14 +19,14 @@ body: {
   }
 
 - Login:
-post: '/users/auth/login'
+post: '/users/auth/login'  
 body: {
   password: 'pwd',
   email: 'example@email.com',
 }
 
 - Register transaction:
-post: '/transactions'
+post: '/transactions'  
 body: {
   user_id: 'abcdfgh',
   value: 122.33
